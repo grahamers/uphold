@@ -11,17 +11,12 @@ cmake version 3.16.3
 **************************
 
 cd build
+
 cmake ..
+
 cd ../build
 
-***************
-*** General ***
-***************
 
-There is no shared library built (time constraints) however the src directory contains all the functions needed
-to implment test. Free functions in "uphold" namespace are used. There is no need for an object, though putting the functions in there would be trivial. I was more focussed
-on getting the results right. There are a set of input values in tests/tests.txt
-which are a superset of the tests defined in the spec.
 
 
 ./main ../tests/tests.txt
@@ -101,6 +96,16 @@ PASS: input: Just.5, 2  , output: Just.05
 PASS: input: 7, 3  , output: 007
 PASS: input: 00100, 5, output: 00100
 
+
+
+***************
+*** General ***
+***************
+
+There is no shared library built (time constraints) however the src directory contains all the functions needed
+to implment test. Free functions in "uphold" namespace are used. There is no need for an object, though putting the functions in there would be trivial. I was more focussed
+on getting the results right. There are a set of input values in tests/tests.txt
+which are a superset of the tests defined in the spec.
 
 Finally: There is a set of errors defined in tests/errors.txt where the error handling is illustrated (bad inputs etc).
 
