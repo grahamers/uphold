@@ -14,11 +14,6 @@ cd build
 
 cmake ..
 
-cd ../build
-
-
-
-
 ./main ../tests/tests.txt
 
 and should give output like;
