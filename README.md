@@ -60,35 +60,65 @@ harness that has inputs and expected outputs. Its run as follows, from the build
 It should give output like;
 
 PASS: input: James Bond 7, 3, output: James Bond 007
+
 PASS: input: PI=3.14, 2, output: PI=03.14
+
 PASS: input: It's 3:13pm, 2, output: It's 03:13pm
+
 PASS: input: It's 12:13pm, 2, output: It's 12:13pm
+
 PASS: input: 99UR1337, 6, output: 000099UR001337
+
 PASS: input: jon 2 jon02, 3, output: jon 002 jon002
+
 PASS: input: fill 2, bobBBBBBB112323, 12, output: fill 000000000002, bobBBBBBB000000112323
+
 PASS: input: Jonny1, 12, output: Jonny000000000001
+
 PASS: input: fill  bob, 9, output: fill  bob
+
 PASS: input: graham 1, 3, output: graham 001
+
 PASS: input: 1jon 22 jon022, 3, output: 001jon 022 jon022
+
 PASS: input: "", 3  , output: ""
+
 PASS: input: Hello World!, 4  , output: Hello World!
+
 PASS: input: 42, 4  , output: 0042
+
 PASS: input: Order 12345, 3  , output: Order 12345
+
 PASS: input: abc123def, 5  , output: abc00123def
+
 PASS: input: Ratio 3.1416 and count 7, 3  , output: Ratio 003.1416 and count 007
+
 PASS: input: 007 is a code, 5  , output: 00007 is a code
+
 PASS: input: Agent code is 9, 2  , output: Agent code is 09
+
 PASS: input: ID: 0009, 5  , output: ID: 00009
+
 PASS: input: Items 5 12 123, 3  , output: Items 005 012 123
+
 PASS: input: abc-9:def, 2  , output: abc-09:def
+
 PASS: input: Zero 0, 4  , output: Zero 0000
+
 PASS: input: Val 123, 8  , output: Val 00000123
+
 PASS: input: Mix 3.14 and 42abc, 4  , output: Mix 0003.0014 and 0042abc
+
 PASS: input: Edge12.99, 2  , output: Edge12.99
+
 PASS: input: EndsWith9, 2  , output: EndsWith09
+
 PASS: input: 9Starts, 3  , output: 009Starts
+
 PASS: input: Just.5, 2  , output: Just.05
+
 PASS: input: 7, 3  , output: 007
+
 PASS: input: 00100, 5, output: 00100
 
 
