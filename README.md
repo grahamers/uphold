@@ -20,35 +20,65 @@ and should give output like;
 
 
 James Bond 007
+
 PI=03.14
+
 It's 03:13pm
+
 It's 12:13pm
+
 000099UR001337
+
 jon 002 jon002
+
 fill 000000000002, bobBBBBBB000000112323
+
 Jonny000000000001
+
 fill  bob
+
 graham 001
+
 001jon 022 jon022
+
 ""
+
 Hello World!
+
 0042
+
 Order 12345
+
 abc00123def
+
 Ratio 003.1416 and count 007
+
 00007 is a code
+
 Agent code is 09
+
 ID: 00009
+
 Items 005 012 123
+
 abc-09:def
+
 Zero 0000
+
 Val 00000123
+
 Mix 0003.0014 and 0042abc
+
 Edge12.99
+
 EndsWith09
+
 009Starts
+
 Just.05
+
 007
+
 00100
 
 
