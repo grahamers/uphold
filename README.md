@@ -160,18 +160,19 @@ PASS: input: 00100, 5, output: 00100
 ***************
 
 There is no shared library built (time constraints) however the src directory contains all the functions needed
-to implment test. Free functions in "uphold" namespace are used. There is no need for an object, though putting the functions in there would be trivial. I was more focussed
+to implement test environment. Free functions in "uphold" namespace are used. There is no need for an object, though putting the functions in an object would be trivial. I was more focussed
 on getting the results right. There are a set of input values in tests/tests.txt
 which are a superset of the tests defined in the spec.
 
 Finally: There is a set of errors defined in tests/errors.txt where the error handling is illustrated (bad inputs etc).
 
-The way the inputs are structured (files) you can easily add your own "gotcha" cases. Would be delighted to discuss approach etc. I have
+The way the inputs are structured (files) means you can easily add your own "gotcha" cases. Would be delighted to discuss approach etc. I have
 an awful feeling there's a STL approach out there.
 
 
-Time complexity O(N)  - we iterate over the input string EXACTLY once (rfind is used to get the padding value) and
-after that I iterate from start. No over laps. I avoided iterators because using rbegin and rend and base to convert to
+Time complexity O(N)  - we iterate over the input string EXACTLY once (rfind is used to get the padding value from end of input string and after that I iterate from start. No over laps. I avoided iterators because using rbegin and rend and base to convert to
 a regular (forward) iterator, can be error prone.
 
 Space complexity O(N + X)  (I refer to 'X' as padding in code).
+
+Time complexity O(N)
